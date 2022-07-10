@@ -1,6 +1,6 @@
 #compute Covid hospitalizations (12/15-3/15)
 
-hosp <- read.csv("~/Projects/Research/Mihir Projects/COVID-19 Model/covid-hospitalizations.csv")
+hosp <- read.csv("../data/covid-hospitalizations.csv")
 
 us_hosp <- subset(hosp, entity=="United States" & indicator == "Weekly new hospital admissions")
 
