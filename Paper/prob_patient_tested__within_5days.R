@@ -1,4 +1,4 @@
-data <- read.csv("COVID-19_Case_Surveillance_Public_Use_Data.csv")
+data <- read.csv("../data/COVID-19_Case_Surveillance_Public_Use_Data.csv")
 
 data$onset_dt <- as.Date(data$onset_dt)
 data$pos_spec_dt <- as.Date(data$pos_spec_dt)
