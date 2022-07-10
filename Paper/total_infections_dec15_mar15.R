@@ -1,5 +1,5 @@
-data21_org <- read.csv("covid19_infection_estimate_2021.csv")
-data22_org <- read.csv("covid19_infection_estimate_2022.csv")
+data21_org <- read.csv("../data/covid19_infection_estimate_2021.csv")
+data22_org <- read.csv("../data/covid19_infection_estimate_2022.csv")
 
 data21 <- data21_org[data21_org$location_name == 'United States of America', ]
 data22 <- data22_org[data22_org$location_name == 'United States of America', ]
