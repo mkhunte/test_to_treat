@@ -1,5 +1,5 @@
 
-data22_org <- read.csv("covid19_infection_estimate_2022.csv")
+data22_org <- read.csv("../data/covid19_infection_estimate_2022.csv")
 data22 <- data22_org[data22_org$location_name == 'United States of America', ]
 
 data22$date <- as.Date(data22$date)
